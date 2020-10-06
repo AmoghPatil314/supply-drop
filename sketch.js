@@ -26,7 +26,7 @@ function setup() {
 	helicopterSprite.scale=0.6
 
 	groundSprite=createSprite(width/2, height-35, width,10);
-	groundSprite.shapeColor=color(255)
+	//groundSprite.shapeColor=color(255)
 
 	//wall1Sprite=createSprite(200,600,25,200);
 	//wall1Sprite.shapeColor="red";
