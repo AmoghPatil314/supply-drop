@@ -79,7 +79,10 @@ function draw() {
 function keyPressed() {
  if (keyCode === DOWN_ARROW) {
 	// Look at the hints in the document and understand how to make the package body fall only on
+	
+	//changed here you wrote Matter.Body.setStatic() 
+	//where as namespacing is already done on the top 
+	//as Body = Matter.Body;
     Body.setStatic(packageBody,false);
   }
 }
-
